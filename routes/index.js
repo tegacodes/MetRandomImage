@@ -18,7 +18,15 @@ exports.scrapiRandom = function(req,res) {
 				what : apiData.What,
 				whereBroad : apiData.where[0],
 				whereSpecific : apiData.where[1],
-				image : apiData.image
+				image : apiData.image,
+				title : apiData.title,
+				dimensions : apiData.dimensions,
+				provenance : apiData.provenance,
+				date : apiData.date,
+				culture : apiData.culture,
+				medium : apiData.silk,
+				department : apiData.department
+				
 			}
 
 			console.log(templateData);
